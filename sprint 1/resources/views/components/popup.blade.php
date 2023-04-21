@@ -1,7 +1,7 @@
 @if (session()->has('success'))
     <script>
         Swal.fire(
-        'Success! Cek email untuk verifikasi akun!',
+        'Success!',
         "{{ session('success') }}",
         'success'
         )
