@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+.bot-nav {
+    display: none;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+   
+::-webkit-scrollbar-thumb { 
+    background: #888; 
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #ddd; 
+}
+
+.owl-carousel .owl-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.owl-carousel .owl-stage {
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-item {
+    font-size: 12px;
+}
